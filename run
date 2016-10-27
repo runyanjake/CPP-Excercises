@@ -1,0 +1,6 @@
+#/bin/sh
+
+./compile $1 $2 $3
+echo runyanjake: Running program $1 $2 $3 ...
+./a.out
+echo runyanjake: Process completed.
